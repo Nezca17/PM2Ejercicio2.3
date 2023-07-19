@@ -17,6 +17,7 @@
         <!-- Caja de texto para la descripción -->
         <Entry x:Name="descriptionEntry" Placeholder="Ingrese la descripción aquí" />
 
+        <Button x:Name="Guardar" Clicked="Guardar_Clicked" Text="Guardar" />
 
 
     </StackLayout>

@@ -55,5 +55,10 @@ namespace PM2Ejercicio2._3
                 await DisplayAlert("Error", $"Ha ocurrido un error: {ex.Message}", "OK");
             }
         }
+
+        private void Guardar_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
