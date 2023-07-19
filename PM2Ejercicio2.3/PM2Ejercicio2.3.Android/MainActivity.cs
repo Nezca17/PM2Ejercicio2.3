@@ -3,6 +3,7 @@
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
+using Plugin.Media;
 using Android.OS;
 
 namespace PM2Ejercicio2._3.Droid
@@ -23,6 +24,7 @@ namespace PM2Ejercicio2._3.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
         }
     }
 }
