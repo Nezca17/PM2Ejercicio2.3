@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PM2Ejercicio2.3.Views
+namespace PM2Ejercicio2_3.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class AudioList : ContentPage

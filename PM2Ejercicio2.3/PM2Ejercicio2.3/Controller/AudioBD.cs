@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using SQLite;
 using System.Threading.Tasks;
+using PM2Ejercicio2_3.Models;
 
-namespace PM2Ejercicio2.3.Controller
+namespace PM2Ejercicio2_3.Controller
 {
      public class AudiosDB
 {
@@ -13,10 +14,10 @@ namespace PM2Ejercicio2.3.Controller
     public AudiosDB(string dbpath)
     {
         db = new SQLiteAsyncConnection(dbpath);
-        db.CreateTableAsync<Audio>();
+        db.CreateTableAsync<Models.Audio>();
     }
 
-    public Task<int> guardarAudio(Audio audio)
+    public Task<int> guardarAudio(Models.Audio audio)
     {
         if (audio.id != 0)
         {
