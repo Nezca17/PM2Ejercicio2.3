@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PM2Ejercicio2._3.MainPage">
+             x:Class="PM2Ejercicio2_3.MainPage">
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
@@ -10,15 +10,16 @@
         <!-- Campo para mostrar la imagen -->
         <Image x:Name="imageField" />
 
-
-        <!-- Botón -->
+        <!-- Botón para tomar foto -->
         <Button Text="Tomar foto" Clicked="Button_Clicked" />
 
         <!-- Caja de texto para la descripción -->
         <Entry x:Name="descriptionEntry" Placeholder="Ingrese la descripción aquí" />
 
+        <!-- Botón para guardar -->
         <Button x:Name="Guardar" Clicked="Guardar_Clicked" Text="Guardar" />
 
+        <Button Text="Ver Imágenes Guardadas" Clicked="VerImagenes_Clicked" />
 
     </StackLayout>
 

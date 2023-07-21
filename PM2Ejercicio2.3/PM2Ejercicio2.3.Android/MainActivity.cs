@@ -6,7 +6,7 @@ using Android.Runtime;
 using Plugin.Media;
 using Android.OS;
 
-namespace PM2Ejercicio2._3.Droid
+namespace PM2Ejercicio2_3.Droid
 {
     [Activity(Label = "PM2Ejercicio2._3", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

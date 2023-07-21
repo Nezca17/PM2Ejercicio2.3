@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PM2Ejercicio2._3
+namespace PM2Ejercicio2_3
 {
     public partial class App : Application
     {
@@ -10,7 +10,7 @@ namespace PM2Ejercicio2._3
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
